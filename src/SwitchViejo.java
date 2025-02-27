@@ -1,8 +1,8 @@
 public class SwitchViejo {
     public static void main(String[] args) {
-        int dia = 3; // Cambia este valor para probar
+        int dia = 3; 
 
-        String nombreDia = ""; // Se debe inicializar fuera del switch
+        String nombreDia = "";
 
         switch (dia) {
             case 1:
@@ -15,11 +15,12 @@ public class SwitchViejo {
                 nombreDia = "Miércoles";
                 break;
             case 4:
+                nombreDia = "Jueves"; 
             case 5:
-                nombreDia = "Jueves o Viernes"; // Agrupación manual de casos
+                nombreDia = "Viernes"; 
                 break;
             default:
-                nombreDia = "Día no válido"; // Obligatorio para manejar valores inesperados
+                nombreDia = "Día no válido"; 
                 break;
         }
 
